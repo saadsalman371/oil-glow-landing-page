@@ -1,20 +1,20 @@
 
 const WhatsAppButton = () => {
-  const whatsappNumber = "923001234567"; // Replace with actual WhatsApp number
+  const whatsappNumber = "923001234567";
   const message = "Hi! I'm interested in HairFix hair oil. Can you help me with more details?";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50">
       <a
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-center w-16 h-16 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group"
+        className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group"
         aria-label="Contact us on WhatsApp"
       >
         <svg 
-          className="w-8 h-8 group-hover:scale-110 transition-transform duration-300" 
+          className="w-6 h-6 sm:w-8 sm:h-8 group-hover:scale-110 transition-transform duration-300" 
           fill="currentColor" 
           viewBox="0 0 24 24"
         >

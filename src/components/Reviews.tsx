@@ -2,46 +2,67 @@
 const Reviews = () => {
   const reviews = [
     {
-      name: "Priya Sharma",
-      location: "Mumbai",
+      name: "Fatima Khan",
+      location: "Karachi",
       rating: 5,
       review: "I've been using HairFix for 3 months now, and the transformation is incredible! My hair went from dry and brittle to soft and shiny. Best investment I've made for my hair care routine.",
       image: "👩‍💼"
     },
     {
-      name: "Anjali Patel",
-      location: "Delhi",
+      name: "Ayesha Ahmed",
+      location: "Lahore",
       rating: 5,
       review: "After trying countless hair oils, HairFix is the only one that actually delivered results. My hair growth has noticeably improved, and the texture is so much better now.",
       image: "👩‍🎓"
     },
     {
-      name: "Sneha Reddy",
-      location: "Bangalore",
+      name: "Zara Ali",
+      location: "Islamabad",
       rating: 5,
       review: "The best part about HairFix is that it's not greasy at all! It absorbs quickly and leaves my hair feeling nourished without that heavy, oily feeling. Highly recommend!",
       image: "👩‍💻"
     },
     {
-      name: "Rita Singh",
-      location: "Pune",
+      name: "Sana Malik",
+      location: "Faisalabad",
       rating: 5,
       review: "I was skeptical at first, but HairFix proved me wrong. Within 2 weeks, I could see less hair fall and more shine. My hairdresser even asked what I was using!",
       image: "👩‍🏫"
     },
     {
-      name: "Kavya Nair",
-      location: "Chennai",
+      name: "Maryam Sheikh",
+      location: "Multan",
       rating: 5,
       review: "Love how natural and effective this product is. No harsh chemicals, just pure goodness for my hair. The results speak for themselves - healthier, stronger hair.",
       image: "👩‍⚕️"
     },
     {
-      name: "Meera Joshi",
-      location: "Hyderabad",
+      name: "Rabia Hussain",
+      location: "Peshawar",
       rating: 5,
       review: "HairFix has become an essential part of my weekly hair care routine. The repair and restoration it provides is unmatched. My hair feels like it's been professionally treated.",
       image: "👩‍🎨"
+    },
+    {
+      name: "Hina Javed",
+      location: "Quetta",
+      rating: 5,
+      review: "Amazing results! My hair was severely damaged from constant styling, but HairFix brought it back to life. Now I get compliments on my hair everywhere I go!",
+      image: "👩‍💼"
+    },
+    {
+      name: "Nadia Tariq",
+      location: "Rawalpindi",
+      rating: 5,
+      review: "I've recommended HairFix to all my friends and family. It's truly a game-changer for anyone struggling with hair problems. Worth every penny!",
+      image: "👩‍🎓"
+    },
+    {
+      name: "Sadia Raza",
+      location: "Gujranwala",
+      rating: 5,
+      review: "The texture of my hair has completely changed since using HairFix. It's softer, more manageable, and has a natural shine that I never had before.",
+      image: "👩‍💻"
     }
   ];
 
@@ -57,7 +78,7 @@ const Reviews = () => {
             {" "}Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Join thousands of women who have transformed their hair with HairFix. Here are some of their amazing stories.
+            Join thousands of women across Pakistan who have transformed their hair with HairFix. Here are some of their amazing stories.
           </p>
           
           <div className="flex items-center justify-center gap-2 mt-8">
@@ -101,7 +122,7 @@ const Reviews = () => {
             <h3 className="text-2xl font-bold mb-4">Ready to Transform Your Hair?</h3>
             <p className="text-lg mb-6">Join thousands of satisfied customers who chose HairFix</p>
             <button className="bg-white text-green-700 px-8 py-4 rounded-xl font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg">
-              Order HairFix Now - ₹299
+              Order HairFix Now - PKR 2,999
             </button>
           </div>
         </div>

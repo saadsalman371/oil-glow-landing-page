@@ -20,6 +20,16 @@ const ProductBenefits = () => {
       icon: "🛡️",
       title: "Protective Formula",
       description: "Creates a protective barrier against future damage while maintaining hair's natural moisture balance."
+    },
+    {
+      icon: "🌿",
+      title: "100% Natural",
+      description: "Made with organic ingredients and essential oils that are safe for all hair types and ages."
+    },
+    {
+      icon: "💧",
+      title: "Deep Hydration",
+      description: "Provides intense moisture to dry and brittle hair, making it soft and touchable."
     }
   ];
 
@@ -38,7 +48,7 @@ const ProductBenefits = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
             <div 
               key={index}

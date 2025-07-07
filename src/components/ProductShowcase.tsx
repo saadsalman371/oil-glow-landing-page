@@ -79,8 +79,8 @@ const ProductShowcase = () => {
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">Special Launch Price</h3>
                 <div className="text-right">
-                  <div className="text-sm text-gray-500 line-through">₹499</div>
-                  <div className="text-3xl font-bold text-green-600">₹299</div>
+                  <div className="text-sm text-gray-500 line-through">PKR 4,999</div>
+                  <div className="text-3xl font-bold text-green-600">PKR 2,999</div>
                 </div>
               </div>
               <div className="text-sm text-green-600 font-medium mb-4">

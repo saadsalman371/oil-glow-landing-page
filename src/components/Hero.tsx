@@ -44,7 +44,7 @@ const Hero = () => {
                 size="lg" 
                 className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
-                Order Now - ₹299
+                Order Now - PKR 2,999
               </Button>
               <Button 
                 variant="outline" 

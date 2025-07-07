@@ -1,9 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-green-50 via-white to-green-100/50 overflow-hidden">
+    <section className="relative min-h-screen bg-gradient-to-br from-green-50 via-cream-50 to-green-100 flex items-center pt-16">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-10 -right-10 w-72 h-72 bg-green-200/20 rounded-full blur-3xl"></div>

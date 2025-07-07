@@ -1,4 +1,5 @@
 
+import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import ProductBenefits from "@/components/ProductBenefits";
 import ProductShowcase from "@/components/ProductShowcase";
@@ -12,13 +13,20 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50/30 to-cream-50/30">
-      <Hero />
-      <ProductBenefits />
-      <ProductShowcase />
-      <HowItWorks />
-      <Ingredients />
+      <Navigation />
+      <div id="home">
+        <Hero />
+      </div>
+      <div id="about">
+        <ProductBenefits />
+        <ProductShowcase />
+        <HowItWorks />
+        <Ingredients />
+      </div>
       <Reviews />
-      <ContactForm />
+      <div id="contact">
+        <ContactForm />
+      </div>
       <Footer />
       <WhatsAppButton />
     </div>
